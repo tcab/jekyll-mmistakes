@@ -7,3 +7,23 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+  - title: "Page100"
+    url: /page100/
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /posts/
+      - title: "section-1"
+        url: /page100#section-1
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+  

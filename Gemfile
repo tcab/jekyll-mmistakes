@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# attempt to avoid deprecation warnings - doesn't work
+# gem "jekyll", github: "jekyll/jekyll"
+
 gem "github-pages", group: :jekyll_plugins
 
 gem "tzinfo-data"

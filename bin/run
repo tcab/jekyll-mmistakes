@@ -1,4 +1,4 @@
 # bundle exec jekyll serve
 # RUBYOPT='-W:no-deprecated' bundle exec jekyll serve
 # bundle exec jekyll serve 2>/dev/null
-bundle exec jekyll serve 2>&1 | egrep -v 'deprecated|other_annoying_word'
+bundle exec jekyll serve 2>&1 | egrep -v 'deprecated|other_annoying_word|Invalid theme folder: _sass|GitHub Metadata: No GitHub API authentication could be found'

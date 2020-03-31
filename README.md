@@ -1,5 +1,11 @@
 # Minimal Mistakes remote theme starter
 
+[Live Demo](https://tcab.github.io/jekyll-mmistakes/)
+
+Especially what you can do with markdown [page100](https://tcab.github.io/jekyll-mmistakes/page100/)
+
+---
+
 Fork this repo for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
 
 Contains basic configuration to get you a site with:

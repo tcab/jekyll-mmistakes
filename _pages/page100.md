@@ -145,6 +145,14 @@ a simple table
 | A simple | Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip. |
 | with multiple | Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip. |
 
+
+|               | **GitHub README.md**           | **GitHub Pages via /docs** |  Comment |
+| sanitised raw | perfect                        | perfect  | The sanitised raw technique works perfectly in all scenarios, but it does mean precending all your image url references with `https://raw.githubusercontent.com/tcab/pagestest/master/` |
+| naive         | ok but ugly github framed page | perfect  | Thus if its just GitHub Pages hosting, the naive technique is fine - even though the url has an extra part to it its still a short, easy url, with no `raw.githubusercontent.com` urls.  Naive technique not suitable on Github main page e,g, README.md due to the ugly github framed page issue - unless you are not expecting people to click on your images. |
+| regeneration  | ok but flaky                   | flaky    | Flakiness is not good, even though this technique has the benefit of dynamically regenerating SVG files from PlantUML markdown source |
+
+
+
 {::comment}
 This is a comment which is
 completely ignored.
